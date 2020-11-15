@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .info {
+    display: flex;
+  }
+
+  .counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .square {
+    height: 30px;
+    width: 30px;
+  }
+
+  #session-label,
+  #break-label {
+    padding: 1rem;
+  }
+
+}
